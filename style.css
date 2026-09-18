@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+section{
+    display: flex;
+    padding: 20px;
+    background-color: skyblue;
+    align-items: center;
+    width: 400px;
+    flex-direction:column;
+}
+.joueurs{
+    color: grey;
+    font-weight: bold;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.boutons{
+    margin-top: 20px;
+    flex: row;
+}
+button{
+    padding: 5px 15px;
+    width: 100px;
+    border-radius: 6px;
+    border: 1px solid skyblue;
+    color: skyblue;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: 0.5s;
+    text-transform: capitalize;
+}
+button:focus{
+    color: white;
+    background-color:cornflowerblue;
+    border: 2px solid white;
+}
+
+
+
