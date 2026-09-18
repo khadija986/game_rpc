@@ -6,5 +6,6 @@ let choix_clique
 
 choixpossibles.forEach(choixpossibles => choixpossibles.addEventListener('click',(e)=> {
     choix_clique = e.target.id;
+    choix_user.innerHTML = '<img src="${choix_user}.jpeg">';
 
 }) )

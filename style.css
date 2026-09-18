@@ -46,6 +46,11 @@ button:focus{
     background-color:cornflowerblue;
     border: 2px solid white;
 }
+img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
 
 
 
